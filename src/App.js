@@ -9,7 +9,7 @@ import Pagenotfound from './pages/Pagenotfound';
 const App = () => {
   return (
     <>
-        <BrowserRouter>
+        <BrowserRouter basename='/Restaurant-react-website'>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
